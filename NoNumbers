@@ -1,0 +1,1 @@
+NoNumbers = lambda(TextCell,TEXTJOIN("",FALSE,IF(ISNUMBER(MID(TextCell,SEQUENCE(1,LEN(TextCell)),1)*1),"",MID(TextCell,SEQUENCE(1,LEN(TextCell)),1))));
